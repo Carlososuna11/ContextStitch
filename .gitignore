@@ -1,0 +1,32 @@
+# Build and virtual environments
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# VCS/IDE
+.git/
+.svn/
+.hg/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Caches
+.cache/

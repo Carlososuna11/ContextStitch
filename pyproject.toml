@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextstitch"
+version = "0.1.0"
+description = "Concatenate your repo into a single, ChatGPT-friendly context file (with folder tree + file contents)."
+readme = "README.md"
+authors = [{name = "Carlos Osuna", email = "you@example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+  "pathspec>=0.12.0"
+]
+keywords = ["documentation", "LLM", "context", "concatenate", "developer-tools"]
+
+[project.urls]
+Homepage = "https://github.com/your-user/contextstitch"
+Repository = "https://github.com/your-user/contextstitch"
+Issues = "https://github.com/your-user/contextstitch/issues"
+
+[project.scripts]
+contextstitch = "contextstitch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+contextstitch = ["py.typed"]
