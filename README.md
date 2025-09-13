@@ -27,7 +27,7 @@ Perfect to generate a compact, ChatGPT‑ready context file for code reviews or 
 ### From source
 
 ```bash
-git clone https://github.com/your-user/contextstitch.git
+git clone https://github.com/Carlososuna11/ContextStitch
 cd contextstitch
 pip install -e .        # or: pipx install .
 ```
